@@ -1,0 +1,189 @@
+html{
+    font-size: 62.5%;
+    background-color: #000;
+    box-sizing: border-box;
+}
+/*top*/
+#top{
+    width:100%;
+    background-color: inherit;
+    padding-top: 5rem;
+    box-sizing: border-box;
+}
+.container{
+    width:70rem;
+    margin:0 auto;
+}
+.soldier{
+    width:10rem;
+    float:left;
+    margin:1rem 2rem;
+    text-align: center;
+}
+.soldier p{
+    font-size: 3rem;
+}
+.soldier div{
+    width:5rem;
+    height:5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 auto 1rem auto;
+}
+.old-symbol{
+    background-image:url(images/old_symbol.png);
+
+}
+.brave-symbol{
+    background-image:url(images/brave_symbol.png);
+}
+.magic-symbol{
+    background-image:url(images/magic_symbol.png);
+}
+.girl-symbol{
+    background-image:url(images/girl_symbol.png);
+}
+.loser-symbol{
+    background-image:url(images/loser_symbol.png);
+}
+/*center*/
+#center{
+    width:100%;
+    padding:5rem 0;
+    box-sizing: border-box;
+}
+/*battle-zone*/
+#center .battle-zone{
+    width:100%;
+    height:50rem;
+    background-color: #fff;
+}
+#me{
+    width:50%;
+    float:left;
+    height:100%;
+    background-color: #fff;
+    position: relative;
+}
+
+#opponent{
+    width:50%;
+    height:100%;
+    float:right;
+    background-color: #fff;
+    overflow: hidden;
+    position:relative;
+}
+#me .mec{
+    width:21.5rem;
+    height:32rem;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+#opponent .opc{
+    width:20rem;
+    height:30rem;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.op-life{
+    width:100%;
+    height:10rem;
+    text-align: right;
+    position:relative;
+    overflow: hidden;
+}
+.op-lifeBar{
+    width:35rem;
+    height:4rem;
+    background-color: #ec2d2d;
+    border-radius: 5rem;
+    position:absolute;
+    right:-2rem;
+    top:0;
+    border:0.2rem solid #ec2d2d;
+    color:#000;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    line-height:4rem;
+}
+.me-life{
+    width:100%;
+    height:10rem;
+    text-align: left;
+    position:relative;
+    overflow: hidden;
+}
+.me-lifeBar{
+    width:35rem;
+    height:4rem;
+    background-color: #ec2d2d;
+    border-radius: 5rem;
+    position:absolute;
+    left:-2rem;
+    top:0;
+    border:0.2rem solid #ec2d2d;
+    color:#000;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    line-height:4rem;
+}
+/*show-box*/
+#center .show-box{
+    width:78rem;
+    margin:5rem auto 0 auto;
+}
+.seat{
+    width:20rem;
+    height:20rem;
+    border:0.5rem solid #fff;
+    float:left;
+    margin:0 2.5rem;
+    overflow: hidden;
+    position:relative;
+}
+.cards{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.cards li{
+    width:20rem;
+    height:20rem;
+}
+.cards li img{
+    width:20rem;
+    height:20rem;
+}
+/*control*/
+.control-btn{
+    display:block;
+    width:30rem;
+    height:8rem;
+    background-color: #ffcc00;
+    margin:1rem auto;
+    border-radius: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+.control-btn:hover{
+    text-decoration: none;
+}
+.control-btn span{
+    display:block;
+    width:25rem;
+    height:6rem;
+    background-color: #fff;
+    margin:0 auto;
+    border-radius: 3rem;
+    color:#333;
+    text-align: center;
+    line-height:6rem;
+    font-size: 4rem;
+}
