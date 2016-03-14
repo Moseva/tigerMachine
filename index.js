@@ -38,18 +38,18 @@ function go(){
         clearInterval(timer1);
         var cardTopnow=parseInt($("#cards1").css("top"));
         var whichcard=Math.floor(cardTopnow/240);
-        $("#cards1").css("top",whichcard*240+"px");
+        $("#cards1").css("top",whichcard*20+"rem");
         setTimeout(function(){
             clearInterval(timer2);
             var card2Topnow=parseInt($("#cards2").css("top"));
             var whichcard2=Math.floor(card2Topnow/240);
-            $("#cards2").css("top",whichcard2*240+"px");
+            $("#cards2").css("top",whichcard2*20+"rem");
         },500)
         setTimeout(function(){
             clearInterval(timer3);
             var card3Topnow=parseInt($("#cards3").css("top"));
             var whichcard3=Math.floor(card3Topnow/240);
-            $("#cards3").css("top",whichcard3*240+"px");
+            $("#cards3").css("top",whichcard3*20+"rem");
             recoverBtn();
         },1000)
         $("#ctrlBtn span").text("START");
